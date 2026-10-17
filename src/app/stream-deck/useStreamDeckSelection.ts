@@ -122,7 +122,8 @@ export interface UseStreamDeckSelectionArgs {
 const types = {
   item: 'item',
   loadout: 'loadout',
-  'in-game-loadout': 'in-game-loadout',
+  // The plugin requests a 'loadout' selection for both DIM and in-game loadouts
+  'in-game-loadout': 'loadout',
   'inventory-item': 'inventory-item',
 };
 
